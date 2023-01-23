@@ -1,0 +1,75 @@
+/* Globales */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: url(../img/fondo.webp);
+    color: white;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* NAVEGACION */
+header {
+    height: 85px;
+    background-color: #004d40;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    padding: 7px;
+}
+.navegacion {
+    display: flex;
+    align-items: center;
+}
+.navegacion a {
+    padding-right: 20px;
+}
+.navegacion a:hover {
+    cursor: pointer;
+}
+.navegacion a:nth-child(4) {
+    padding: 0%;
+}
+
+/* CONTENIDO PRINCIPAL */
+.portada {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+.portada img {
+    max-width: 500px;
+    width: 90%;
+    margin-top: 50px;
+}
+.portada a {
+    color: white;
+}
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor div {
+    max-width: 400px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.imagen {
+    width: 300px;
+}
+
+/* FOOTER */
+footer {
+    height: 50px;
+    background-color: #004d40;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
